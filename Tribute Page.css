@@ -1,0 +1,55 @@
+#title{
+    color: green;
+    text-align: center;
+  }
+  
+  /*         Main           */
+  
+  /*#side-pic{
+    float: right;
+    width: 150px;
+  }*/
+  
+  #image{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: block;
+    
+  }
+  
+  body{
+    background-color: #a3a375;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  #img-caption{
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  span{
+    font-weight: bold;
+  }
+  
+  #tribute-info{
+    text-align: center;
+  }
+  
+  #info-heading{
+    border-style: solid;
+    border-color: #53ff1a;
+    color: #0d3300; 
+  }
+  
+  .footer{
+    border-style: solid;
+  }

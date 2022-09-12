@@ -1,0 +1,74 @@
+*{
+    font-family: Jazz LET,fantasy;
+  }
+  
+  #title{
+    margin-left:50%;
+  }
+  
+  .nav_heading{
+    text-align: center;
+    font-size: 36px;
+    display: block;
+  
+  
+  }
+  
+  .border{
+    border-style: solid ;
+  }
+  
+  #main-doc{
+    margin-left: 28%;
+  }
+  
+  body {
+    margin: 0;
+    
+  }
+  
+  .bar  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .nav a{
+    font-size: 26px;
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  .nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  .nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  @media (max-width:36px) and (min-width:28px){
+  #nav-bar{
+    width: 36px;
+  
+    
+  }
+  .nav{
+      width: 36px;
+    }
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the navbar (less padding and a smaller font size) */
+   @media screen and (max-height: 450px) {
+     #navbar  {padding-top: 15px;}
+     #navbar  a {font-size: 18px;}
+   }

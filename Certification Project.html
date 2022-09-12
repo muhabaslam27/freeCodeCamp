@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>freeCodeCamp Survey Form</title>
+  <link rel="stylesheet" href="/StylesCSS/Certification Project.css">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+  <!-- title -->
+  <h1 id="title">
+    freeCodeCamp Survey Form
+  </h1>
+
+  <!-- Description -->
+  <p id="description">
+    Thank you for taking the time to help us improve the platform
+  </p>
+
+  <!-- survey form -->
+  <form id="survey-form" action="https://survey-form.freecodecamp.rocks/">
+
+    <fieldset>
+    <!-- input text box wrapped in label tag-->
+
+    <label id="name-label">Name<br>
+      <input type="text" id="name" placeholder="Enter Your Name" required />
+    </label><br>
+    
+<!-- input text box wrapped in label tag-->
+    <label id="email-label">Email<br>
+      <input type="email" id="email" placeholder="Enter Your Email" required />
+    </label><br>
+
+<!-- input number wrapped in label tag-->
+    <label id="number-label">Age<br>
+      <input type="number" id="number" placeholder="Age" min="13" max="80" required />
+    </label><br> 
+    
+    </fieldset> 
+
+    <fieldset>  
+<!-- select dropdown box -->
+
+    <label >Which option best describes your current role?</label><br>
+
+    <select id="dropdown" multiple>
+      <option value="">Select Current Role</option>
+      <option value="1">Student</option>
+      <option value="2">Full Time Job</option>
+      <option value="3">Full Time Learner</option>
+      <option value="4">Prefer not to say</option>
+      <option value="5">Other</option>
+    </select>
+
+    </fieldset>
+    
+    <fieldset id="group1">
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+
+    <input type="radio" name="radio" value="yes"> Definetly
+
+    </fieldset>
+
+    <fieldset id="group2">
+    <input type="radio" name="radio" value="no"> Maybe<br>     
+
+    </fieldset>
+
+    <fieldset>
+
+    <p>What is your favorite feature of freeCodeCamp?</p>
+    
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Front-end Projects
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Back-end Projects
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Data visulazition
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Challenges
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Open Source Community
+      </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Gitter help rooms
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Videos
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">City Meetups
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Wiki
+    </label><br>
+
+    <label>
+      <input type="checkbox"name="checkbox" value="checkbox">Forum
+    <label><br>
+
+      <label>
+        <input type="checkbox"name="checkbox" value="checkbox">Additional Courses
+      </label><br>
+
+    </fieldset>
+
+    <fieldset>
+      <p>Any comments or suggestions?</p>
+
+      <textarea placeholder="Enter Your Commment..."></textarea>
+    </fieldset>
+    
+    <input type="submit" value="submit" name="submit" id="submit">
+
+  </form>
+</body>
+
+</html> 
